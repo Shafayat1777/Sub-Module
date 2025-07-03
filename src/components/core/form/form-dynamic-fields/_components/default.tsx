@@ -7,7 +7,7 @@ import CoreForm from '@core/form';
 
 import { cn } from '@/lib/utils';
 
-import { DynamicFieldsProps } from '../../form-dynamic-fields/types';
+import { DynamicFieldsProps } from '../types';
 
 const DefaultDynamicFields: React.FC<Omit<DynamicFieldsProps, 'title' | 'viewAs' | 'extraButtons' | 'handleAdd'>> = ({
 	fields,
